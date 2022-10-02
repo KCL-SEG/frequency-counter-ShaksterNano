@@ -1,10 +1,8 @@
 """Frequencies function."""
-from typing import Any, Iterable
-
 """ENTER YOUR SOLUTION HERE!"""
 
 
-def frequencies(items: Iterable[Any]) -> dict[str, int]:
+def frequencies(items) -> dict[str, int]:
     frequencies = {}
     for item in items:
         string_item = str(item)
