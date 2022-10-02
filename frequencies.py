@@ -2,7 +2,7 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 
-def frequencies(items) -> dict[str, int]:
+def frequencies(items):
     frequencies = {}
     for item in items:
         string_item = str(item)
